@@ -1,0 +1,22 @@
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mat-toolbar a:hover {
+  text-decoration: underline;
+}
+
+.mat-toolbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.mat-toolbar ul {
+  list-style-type: none;
+  display: flex;
+}
