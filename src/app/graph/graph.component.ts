@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-graph',
+  templateUrl: './graph.component.html',
+  styleUrls: ['./graph.component.css']
 })
-export class HomeComponent implements OnInit {
+export class GraphComponent implements OnInit {
 
   data = [
     [ 1.000000E-03, 1.000003E+00, 1.000003E+00, 1.000003E+00, 1.000003E+00],
@@ -75,21 +75,21 @@ export class HomeComponent implements OnInit {
     [3.001000E+00, 9.555713E-01, 9.583884E-01, 9.590986E-01, 9.592766E-01],
   ];
 
-   title = 'Average Temperatures of Cities';
-   type = 'LineChart';
+  title = 'Average Temperatures of Cities';
+  type = 'LineChart';
 
-   columnNames = ['x', 'dt = 1.0000E-03', 'dt = 0.2500E-03', 'dt = 0.0625E-03', 'dt = 0.0156E-03'];
+  columnNames = ['x', 'dt = 1.0000E-03', 'dt = 0.2500E-03', 'dt = 0.0625E-03', 'dt = 0.0156E-03'];
 
-   options = {
-      hAxis: {
-         title: 'x'
-      },
-      vAxis: {
-         title: 'y'
-      },
-   };
-   width = 550;
-   height = 400;
+  options = {
+     hAxis: {
+        title: 'x'
+     },
+     vAxis: {
+        title: 'y'
+     },
+  };
+  width = 550;
+  height = 400;
 
   constructor() { }
 
