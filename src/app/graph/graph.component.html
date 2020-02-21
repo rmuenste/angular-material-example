@@ -1,13 +1,4 @@
 <div fxLayout="column" fxLayoutAlign="center center">
-<google-chart #chart
-   [title]="title"
-   [type]="type"
-   [data]="data"
-   [columnNames]="columnNames"
-   [options]="options"
-   [width]="width"
-   [height]="height">
-</google-chart>
 <h4>Solution Level</h4>
 <mat-form-field>
   <mat-label>Level</mat-label>
@@ -17,4 +8,13 @@
     <mat-option value="Level4">Level4</mat-option>
   </mat-select>
 </mat-form-field>
+<google-chart #chart
+   [title]="title"
+   [type]="type"
+   [data]="data"
+   [columnNames]="columnNames"
+   [options]="options"
+   [width]="width"
+   [height]="height">
+</google-chart>
 </div>

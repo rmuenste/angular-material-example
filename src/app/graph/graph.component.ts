@@ -164,7 +164,7 @@ export class GraphComponent implements OnInit {
 
   onChange() {
     console.log(this.selected);
-    if(this.selected === 'Level2') {
+    if (this.selected === 'Level2') {
       this.data = this.dataL2;
     } else if(this.selected === 'Level3') {
       this.data = this.dataL3;
