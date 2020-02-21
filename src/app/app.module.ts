@@ -12,7 +12,8 @@ import { ContactComponent } from './contact/contact.component';
 import { GoogleChartsModule } from 'angular-google-charts';
 import { GraphComponent } from './graph/graph.component';
 import {MatInputModule} from '@angular/material/input';
-
+import {MatSliderModule} from '@angular/material/slider';
+import {MatSelectModule} from '@angular/material/select';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
@@ -30,7 +31,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatToolbarModule,
     GoogleChartsModule,
     FlexLayoutModule,
-    MatInputModule
+    MatInputModule,
+    MatSliderModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
