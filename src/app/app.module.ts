@@ -11,6 +11,9 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { GoogleChartsModule } from 'angular-google-charts';
 import { GraphComponent } from './graph/graph.component';
+import {MatInputModule} from '@angular/material/input';
+
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,9 @@ import { GraphComponent } from './graph/graph.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatToolbarModule,
-    GoogleChartsModule
+    GoogleChartsModule,
+    FlexLayoutModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
