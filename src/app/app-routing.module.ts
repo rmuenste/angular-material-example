@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { GraphRoutePageComponent } from './graph-route-page/graph-route-page.component';
 import { MyKarusellComponent } from './my-karusell/my-karusell.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
 {path: 'graph', component: GraphRoutePageComponent},
 {path: 'karusell', component: MyKarusellComponent},
 {path: 'contact', component: ContactComponent},
+{path: 'portfolio', component: PortfolioComponent},
 ];
 
 @NgModule({

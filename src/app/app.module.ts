@@ -22,6 +22,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { GraphRoutePageComponent } from './graph-route-page/graph-route-page.component';
 import { MyKarusellComponent } from './my-karusell/my-karusell.component';
 import { SlideshowModule } from 'ng-simple-slideshow';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SlideshowModule } from 'ng-simple-slideshow';
     ContactComponent,
     GraphComponent,
     GraphRoutePageComponent,
-    MyKarusellComponent
+    MyKarusellComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
