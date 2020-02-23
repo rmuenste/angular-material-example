@@ -21,6 +21,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { GraphRoutePageComponent } from './graph-route-page/graph-route-page.component';
 import { MyKarusellComponent } from './my-karusell/my-karusell.component';
+import { SlideshowModule } from 'ng-simple-slideshow';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { MyKarusellComponent } from './my-karusell/my-karusell.component';
     FormsModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    SlideshowModule
   ],
   providers: [],
   bootstrap: [AppComponent]
