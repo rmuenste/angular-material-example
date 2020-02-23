@@ -1,0 +1,16 @@
+.graph-container {
+  border: 2px solid black;
+  padding-top: 20px;
+}
+
+.form-label {
+  display: inline;
+  margin-right: 20px;
+}
+
+.graph-controls-wrapper {
+}
+
+.chart-object {
+  margin-top: 0px;
+}

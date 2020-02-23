@@ -19,13 +19,17 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { GraphRoutePageComponent } from './graph-route-page/graph-route-page.component';
+import { MyKarusellComponent } from './my-karusell/my-karusell.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ContactComponent,
-    GraphComponent
+    GraphComponent,
+    GraphRoutePageComponent,
+    MyKarusellComponent
   ],
   imports: [
     BrowserModule,
