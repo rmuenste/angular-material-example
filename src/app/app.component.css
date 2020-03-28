@@ -11,12 +11,24 @@
   text-decoration: underline;
 }
 
+.mat-toolbar a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 .mat-toolbar a {
   text-decoration: none;
-  color: white;
 }
 
 .mat-toolbar ul {
   list-style-type: none;
   display: flex;
 }
+
+
+.mat-toolbar {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
