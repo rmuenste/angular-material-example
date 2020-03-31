@@ -24,6 +24,8 @@ import { MyKarusellComponent } from './my-karusell/my-karusell.component';
 import { SlideshowModule } from 'ng-simple-slideshow';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 
+import {MatIconModule} from '@angular/material/icon';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,7 +51,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     MatDatepickerModule,
     MatNativeDateModule,
     MatCheckboxModule,
-    SlideshowModule
+    SlideshowModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

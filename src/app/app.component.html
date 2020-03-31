@@ -1,8 +1,14 @@
 <mat-toolbar>
-  <span>FeatFloWer</span>
+  <div>
+  <button mat-icon-button>
+    <mat-icon>apps</mat-icon>
+    FeatFloWer
+  </button>
+  </div>
+  <!-- This fills the remaining space of the current row
 
-  <!-- This fills the remaining space of the current row -->
-  <span class="example-fill-remaining-space"></span>
+  -->
+  <span class="log">
   <ul>
     <li>
       <a routerLink="/">Home</a>
@@ -20,7 +26,12 @@
       <a routerLink="/portfolio">Portfolio</a>
     </li>
   </ul>
-
+  </span>
+  <div>
+  <button mat-stroked-button>Sign In</button>
+  <button mat-icon-button>
+    <mat-icon>menu</mat-icon>
+  </button>
+  </div>
 </mat-toolbar>
-
 <router-outlet></router-outlet>

@@ -1,14 +1,13 @@
+
 .example-fill-remaining-space {
-  flex: 1 1 auto;
+  flex: 0.1 1 auto;
 }
+
 
 .mat-toolbar li {
   padding-left: 10px;
   padding-right: 10px;
-}
-
-.mat-toolbar a:hover {
-  text-decoration: underline;
+  position: relative;
 }
 
 .mat-toolbar a:visited {
@@ -19,16 +18,38 @@
 .mat-toolbar a {
   text-decoration: none;
 }
+.mat-toolbar a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #2dc997;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.mat-toolbar a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 
 .mat-toolbar ul {
   list-style-type: none;
   display: flex;
 }
 
-
 .mat-toolbar {
   font-weight: 400;
   font-size: 16px;
   line-height: 32px;
+  justify-content: space-between;
 }
 
+.in-bar {
+  margin-top: 10px;
+}
